@@ -1,50 +1,40 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Menu should render correctly 1`] = `
+exports[`should render correctly 1`] = `
 
-<div class="ais-menu">
-  <div class="ais-menu__item">
-    <a href="#"
-       class="ais-menu__link"
-    >
-      Bathroom
-      <span class="ais-menu__count">
-        319
-      </span>
-    </a>
-  </div>
-  <div class="ais-menu__item ais-menu__item--active">
-    <a href="#"
-       class="ais-menu__link"
-    >
-      Clothes
-      <span class="ais-menu__count">
-        100
-      </span>
-    </a>
-  </div>
-  <div class="ais-menu__item">
-    <a href="#"
-       class="ais-menu__link"
-    >
-      Shoes
-      <span class="ais-menu__count">
-        202
-      </span>
-    </a>
-  </div>
-  <div class="ais-menu__item">
-    <a href="#"
-       class="ais-menu__link"
-    >
-      Kitchen
-      <span class="ais-menu__count">
-        398
-      </span>
-    </a>
-  </div>
+<div class="ais-ais-menu">
+  <ul class="ais-ais-menu-list">
+    <li class="ais-ais-menu-item--active">
+      <a class="ais-ais-menu-link">
+        <span class="ais-ais-menu-label">
+          foo
+        </span>
+        <span class="ais-ais-menu-count">
+          2
+        </span>
+      </a>
+    </li>
+    <li class="ais-ais-menu-item">
+      <a class="ais-ais-menu-link">
+        <span class="ais-ais-menu-label">
+          bar
+        </span>
+        <span class="ais-ais-menu-count">
+          3
+        </span>
+      </a>
+    </li>
+    <li class="ais-ais-menu-item">
+      <a class="ais-ais-menu-link">
+        <span class="ais-ais-menu-label">
+          foobar
+        </span>
+        <span class="ais-ais-menu-count">
+          4
+        </span>
+      </a>
+    </li>
+  </ul>
 </div>
 
 `;
-
-exports[`Menu should render nothing if no menu entries are available 1`] = `undefined`;
